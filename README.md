@@ -32,7 +32,7 @@ We will take Ubuntu for example.
 $ pip install nltk
 ```
 
-* [stanford coreNLP 3.7.0](http://stanfordnlp.github.io/CoreNLP/) and its [python wrapper](https://github.com/stanfordnlp/stanza). Please put the library under `code/DataProcessorLib/'.
+* [stanford coreNLP 3.9.2](http://stanfordnlp.github.io/CoreNLP/) and its [python wrapper](https://github.com/stanfordnlp/stanza). Please put the library under `code/DataProcessorLib/'.
 
 ```
 $ cd code/DataProcessorLib/
@@ -40,15 +40,15 @@ $ git clone git@github.com:stanfordnlp/stanza.git
 $ cd stanza
 $ pip install -e .
 $ cd code/
-$ wget http://nlp.stanford.edu/software/stanford-corenlp-full-2016-10-31.zip
-$ unzip stanford-corenlp-full-2016-10-31.zip
+$ wget http://nlp.stanford.edu/software/stanford-corenlp-full-2018-10-05.zip
+$ unzip stanford-corenlp-full-2018-10-05.zip
 ```
 
 ## Example Run
 Run CoTypeDataProcessing to generate Json input files of CoType for the example training and test raw corpus
 
 ```
-$ java -mx4g -cp "code/stanford-corenlp-full-2016-10-31/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
+$ java -mx4g -cp "code/stanford-corenlp-full-2018-10-05/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
 $ ./getInputJsonFile.sh  
 ```
 Our example data files are located in ./data folder. You should be able to see these 3 files generated in the same folder - train.json, test.json and brown (brown cluster file), after running the above command.
