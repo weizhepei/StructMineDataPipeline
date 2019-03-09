@@ -26,17 +26,17 @@ To generate such json files, you need to provide the following input files (we i
 ## Dependencies
 We will take Ubuntu for example.
 
-* python 2.7
+* python 3
 * Python library dependencies
 ```
 $ pip install nltk
 ```
 
-* [stanford coreNLP 3.9.2](http://stanfordnlp.github.io/CoreNLP/) and its [python wrapper](https://github.com/stanfordnlp/stanza). Please put the library under `code/DataProcessorLib/'.
+* [stanford coreNLP 3.9.2](http://stanfordnlp.github.io/CoreNLP/) and its [python wrapper (stanze)](https://github.com/stanfordnlp/stanza). Please put the library under `code/DataProcessorLib/'.
 
 ```
 $ cd code/DataProcessorLib/
-$ git clone git@github.com:stanfordnlp/stanza.git
+$ git clone https://github.com/stanfordnlp/stanza.git
 $ cd stanza
 $ pip install -e .
 $ cd code/
