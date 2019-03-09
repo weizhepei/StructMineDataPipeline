@@ -32,7 +32,7 @@ We will take Ubuntu for example.
 $ pip install nltk
 ```
 
-* [stanford coreNLP 3.9.2](http://stanfordnlp.github.io/CoreNLP/) and its [python wrapper (stanze)](https://github.com/stanfordnlp/stanza). Please put the library under `code/DataProcessorLib/'.
+* [stanford coreNLP 3.9.2](http://stanfordnlp.github.io/CoreNLP/) and its [python wrapper (stanza)](https://github.com/stanfordnlp/stanza). Please put the library under `code/DataProcessorLib/'.
 
 ```
 $ cd code/DataProcessorLib/
