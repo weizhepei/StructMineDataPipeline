@@ -45,7 +45,7 @@ $ unzip stanford-corenlp-full-2018-10-05.zip
 ```
 
 ## Example Run
-Run CoTypeDataProcessing to generate Json input files of CoType for the example training and test raw corpus
+Run this tool to generate Json input files for the example training and test raw corpus
 
 ```
 $ java -mx4g -cp "code/stanford-corenlp-full-2018-10-05/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
